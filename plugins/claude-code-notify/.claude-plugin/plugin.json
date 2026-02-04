@@ -1,0 +1,8 @@
+{
+    "name": "claude-code-notify",
+    "description": "Claude Code notification system",
+    "version": "1.0.0",
+    "author": {
+        "name": "lyw"
+    }
+}

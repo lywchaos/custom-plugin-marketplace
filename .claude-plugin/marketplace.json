@@ -1,0 +1,38 @@
+{
+    "name": "custom-plugin-marketplace",
+    "owner": {
+      "name": "lyw"
+    },
+    "plugins": [
+      {
+        "name": "self-improve",
+        "source": "./plugins/self-improve",
+        "description": "Custom memories management across claude code sessions that can be invoked manually."
+      },
+      {
+        "name": "meta-prompt-generate",
+        "source": "./plugins/meta-prompt-generate",
+        "description": "For creating prompt from scratch"
+      },
+      {
+        "name": "code-simplify",
+        "source": "./plugins/code-simplify",
+        "description": "Code simplification tool"
+      },
+      {
+        "name": "context7-mcp",
+        "source": "./plugins/context7-mcp",
+        "description": "Context7 MCP server"
+      },
+      {
+        "name": "thariq-interview",
+        "source": "./plugins/thariq-interview",
+        "description": "Thariq interview about the plan"
+      },
+      {
+        "name": "claude-code-notify",
+        "source": "./plugins/claude-code-notify",
+        "description": "Claude Code notification system"
+      }
+    ]
+  }

@@ -1,0 +1,8 @@
+{
+    "name": "meta-prompt-generate",
+    "description": "For creating prompt from scratch",
+    "version": "1.0.0",
+    "author": {
+        "name": "lyw"
+    }
+}
