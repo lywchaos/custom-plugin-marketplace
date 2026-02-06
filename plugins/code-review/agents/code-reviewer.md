@@ -66,9 +66,12 @@ If a specific scope was provided, use that instead.
 
 ### Findings (grouped by severity, highest first)
 
+Number findings sequentially starting from #1 across all severity groups (not per-group).
+
 For each finding, use this format:
 ```
-### [SEVERITY] Brief description
+### #N [SEVERITY] Brief description
+**Issue type**: <issue-type> (e.g., deadcode, simplicity)
 **Location**: file.py:line-range
 **Evidence**:
 - Specific evidence point 1
