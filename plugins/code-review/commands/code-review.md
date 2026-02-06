@@ -67,4 +67,8 @@ Pass the selected options to @code-reviewer agent:
 - **Issue types**: The selected issue type(s) or "all"
 - **Scope**: The selected scope (git diff, directory path, or repo root)
 
-The agent will perform the review and output findings.
+The agent will perform the review and return its findings.
+
+### Step 5: Present Results
+
+**IMPORTANT**: When the code-reviewer agent returns its report, output the **full report verbatim** to the user. Do NOT summarize, condense, paraphrase, or omit any part of the agent's output. Preserve the exact markdown formatting including all severity headers, evidence bullets, location references, and suggestions. The user expects the complete structured report as-is.

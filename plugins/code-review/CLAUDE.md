@@ -41,6 +41,7 @@ New files are auto-discovered - no configuration needed.
 
 ## Key Patterns
 
+- **Subagent output**: Task tool summarizes agent results by default; commands that need full output must include explicit "output verbatim" instructions (see Step 5 in `commands/code-review.md`)
 - **Scope default**: `git diff` (uncommitted) + branch diff from main
 - **Exclusions**: Test files, hidden dirs, node_modules, venvs
 - **Suppression**: `# noqa: <issue>` or `# code-review: ignore`
