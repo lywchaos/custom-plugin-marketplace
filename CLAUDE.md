@@ -40,6 +40,8 @@ plugins/<plugin-name>/           # Individual plugins
 
 ## Plugin Components
 
+**New plugins must be registered** in `.claude-plugin/marketplace.json` to be installable.
+
 **Commands** (`commands/*.md`): Frontmatter with `description` and optional `argument-hint`.
 
 **Skills** (`skills/<name>/SKILL.md`): Frontmatter with `name` and `description`. Supporting scripts use `uv run --with <deps>` pattern.

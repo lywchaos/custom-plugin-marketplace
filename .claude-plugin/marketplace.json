@@ -33,6 +33,11 @@
         "name": "claude-code-notify",
         "source": "./plugins/claude-code-notify",
         "description": "Claude Code notification system"
+      },
+      {
+        "name": "code-review",
+        "source": "./plugins/code-review",
+        "description": "Extensible code review with composable language/issue support"
       }
     ]
   }
